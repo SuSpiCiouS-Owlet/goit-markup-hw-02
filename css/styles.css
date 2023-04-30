@@ -17,11 +17,6 @@
   text-decoration: none;
 }
 
-button {
-  font-family: var(--main-font-family);
-  cursor: pointer;
-}
-
 body {
   font-family: var(--main-font-family);
   color: var(--secondary-text-color);
@@ -31,6 +26,7 @@ body {
 /*================= COMPONENTS =================*/
 
 .modal-open-btn {
+  font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -38,6 +34,7 @@ body {
   letter-spacing: 0.04em;
   background-color: var(--accent-color);
   color: #ffffff;
+  cursor: pointer;
 }
 
 .modal-open-btn:hover,
@@ -46,6 +43,7 @@ body {
 }
 
 .sorting-btn{
+  font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -53,6 +51,7 @@ body {
   letter-spacing: 0.04em;
   background-color: var(--light-background-color);
   color: var(--accent-color);
+  cursor: pointer;
 }
 .sorting-btn:hover,
 .sorting-btn:focus {
@@ -77,8 +76,8 @@ body {
   color: var(--primary-text-color);
 }
 
-.nav-list-link {
-  font-style: normal;
+.nav-list-link,
+.contact-info-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -86,12 +85,14 @@ body {
   color: var(--primary-text-color);
 }
 
-.link:hover,
-.link:focus {
+.nav-list-link:hover,
+.nav-list-link:focus,
+.contact-info-link:hover,
+.contact-info-link:focus {
   color: #404bbf;
 }
 
-.contact {
+.contact-info {
   font-style: normal;
 }
 
@@ -177,9 +178,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-/*====================TEAM====================*/
+/*==================== TEAM ====================*/
 
-/*===================FOOTER======================*/
+/*=================== FOOTER ======================*/
 
 .bottom-line {
   background-color: var(--primary-text-color);
@@ -187,6 +188,21 @@ body {
 .logo-text-foot {
   color: #f4f4fd;
 }
-/*===================FOOTER======================*/
+/*=================== FOOTER ======================*/
 
-/*====================MAIN====================*/
+/*==================== MAIN ====================*/
+/*==================== PORTFOLIO ====================*/
+.examples-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.examples-classes {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+/*==================== PORTFOLIO ====================*/
