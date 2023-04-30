@@ -1,0 +1,38 @@
+:root {
+    --main-font-family: 'Roboto', sans-serif;
+    --secondary-font-family-family: 'Raleway', sans-serif;
+    --primary-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    ;
+}
+/*Basic*/
+.list {
+   list-style: none; 
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+body {
+    font-family: var(--main-font-family);
+}
+
+/*============COMPONENTS============*/
+.modal-open-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.04em;
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+  background-color: var(--accent-color);
+}
