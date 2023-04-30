@@ -4,9 +4,8 @@
   --primary-text-color: #2e2f42;
   --secondary-text-color: #434455;
   --accent-color: #4d5ae5;
-  --light-background-color: #F4F4FD;
+  --light-background-color: #f4f4fd;
   --white-background: #ffffff;
-
 }
 /*Basic*/
 .list {
@@ -42,7 +41,7 @@ body {
   background-color: #404bbf;
 }
 
-.sorting-btn{
+.sorting-btn {
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 500;
@@ -55,8 +54,8 @@ body {
 }
 .sorting-btn:hover,
 .sorting-btn:focus {
-  color: #FFFFFF;
-  background-color: #404BBF;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 /*================= COMPONENTS =================*/
 
@@ -152,7 +151,7 @@ body {
   background-color: #f4f4fd;
 }
 .team-list {
-  background-color:#FFFFFF;
+  background-color: #ffffff;
 }
 
 .team-title {
